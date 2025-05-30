@@ -14,6 +14,9 @@ import BillCashier from '../view/Bill.tsx';
 import EditBillCashier from '../view/EditBill.tsx';
 import Payment from '../view/payment.tsx';
 import EditOder from '../view/EditOrder.tsx';
+import AddUser from '../view/Adduser.tsx';
+import EditUser from '../view/EditUser.tsx';
+import ChangPassword from '../view/change-password.tsx';
 
 function AppRoutes({ role }) {
   return (
@@ -27,6 +30,10 @@ function AppRoutes({ role }) {
           <Route path="/admin/manage-menu" element={<LayoutAdmin><ManageMenu /></LayoutAdmin>} />
           <Route path="/admin/manage-table" element={<LayoutAdmin><ManageTable /></LayoutAdmin>} />
           <Route path="/admin/manage-bill" element={<LayoutAdmin><ManageBill /></LayoutAdmin>} />
+          <Route path="/admin/add-user" element={<LayoutAdmin><AddUser /></LayoutAdmin>} />
+          <Route path="/admin/edit-user" element={<LayoutAdmin><EditUser /></LayoutAdmin>} />
+          <Route path="/admin/change-password" element={<LayoutAdmin><ChangPassword /></LayoutAdmin>} />
+
         </>
       )}
 
