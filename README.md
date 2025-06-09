@@ -1,6 +1,15 @@
 # ระบบจัดการหน้าร้าน Point of Sale (POS) (อยู่ระหว่างการพัฒนาระบบ)
 ## ระบบนี้เป็นระบบจัดการหน้าร้านอาหารที่ถูกออกแบบมาเพื่อช่วยให้ผู้จัดการร้านและพนักงานแคชเชียร์สามารถบริหารจัดการงานได้อย่างมีประสิทธิภาพและง่ายดาย โดยระบบจะแบ่งการทำงานเป็นสองส่วนหลัก คือ ฝั่งผู้ดูแลระบบ (Admin/ผู้จัดการ) และฝั่งแคชเชียร์ (Cashier)
 
+### Figma
+https://www.figma.com/design/HFiM1So25tnlTgNUvL7kcP/POS?node-id=0-1&p=f&t=KvRiaNnlSxLQkoOM-0
+
+#### Admin
+https://www.figma.com/proto/HFiM1So25tnlTgNUvL7kcP/POS?node-id=2-1097&starting-point-node-id=25%3A2039
+#### Cashier
+https://www.figma.com/proto/HFiM1So25tnlTgNUvL7kcP/POS?node-id=28-3460&starting-point-node-id=36%3A3703
+
+
 ### ขอบเขตของระบบ
 #### สำหรับ Admin / ผู้จัดการ
 - ระบบล็อกอินและล็อกเอาท์ เพื่อความปลอดภัยในการเข้าใช้งาน
